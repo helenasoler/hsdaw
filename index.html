@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>HELENA SOLER</title>
+
+  <!-- CSS  -->
+ 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="fondo">
+
+
+<!--MENÚ DE NAVEGACIÓ-->
+
+
+<!--inici dropdown-->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="persona.html">Persona</a></li>
+    <li class="divider"></li>
+    <li><a href="ruido.html">Ruido</a></li>
+    <li class="divider"></li>
+    <li><a href="espacio.html">Espacio</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="persona.html">Persona</a></li>
+    <li class="divider"></li>
+    <li><a href="ruido.html">Ruido</a></li>
+    <li class="divider"></li>
+    <li><a href="espacio.html">Espacio</a></li>
+  </ul>
+  <!-- Dropdown end -->
+
+  <!--INICI NAVEGADOR-->
+  
+    <nav class="background">
+      <div class="nav-wrapper container">
+      <div class="row">
+      <div class="m12 s12">
+      
+        <a href="index.html"><img class="logo" src="imgs/logo.png"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down" id="desktop">
+          
+          <li><a class="dropdown-button" href="#galeria" data-activates="dropdown1">GALERIA<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="sobre.html">SOBRE MI</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a class="dropdown-button" href="galeria" data-activates="dropdown2">GALERIA<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="sobre.html">SOBRE MI</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>
+</div>
+</div>
+      </div>
+      </nav>
+     
+<!--FINAL DE NAVEGADOR-->
+
+      
+
+<!--FINAL DE NAVEGADOR-->
+<main></main>
+
+<!--FOOTER-->
+
+  <footer class="transparent">
+    
+      <div class="footer-copyright">
+        <div class="container">
+        <div class="row">
+        <div class="col l4 s12">
+        <p class="copyright">&copy; Copyright 2017, Helena Soler. Photographer.</p>
+        </div>
+        <div class="col l3 s12">
+          <p class="politica"><a class="white-text" href="#!">política de privacidad</a></p>
+        </div>
+
+        <div class="col l2 s12">
+          <p class="aviso"><a class="white-text" href="#!">aviso legal</a></p>
+        </div>
+        <div class="col l3 s12">
+            <a href="https://www.facebook.com/helenasolerphoto"><img class ="responsive-img social" src="imgs/facebook.png"></a>
+            <a href="https://www.instagram.com/helenasoler/"><img class ="responsive-img social" src="imgs/instagram.png"></a>
+            <a href="https://twitter.com/helenasolerruiz"><img class ="responsive-img social" src="imgs/twitter.png"></a>
+            <a href="https://www.flickr.com/photos/helenasolerruiz/"><img class ="responsive-img social" src="imgs/flickr.png"></a>
+            <a href="https://www.linkedin.com/in/helena-soler-ruiz-304800132/"><img class ="responsive-img social" src="imgs/linkedin.png"></a>
+            <a href="https://plus.google.com/u/0/102711752102523002481"><img class ="responsive-img social" src="imgs/google.png"></a>
+          </div>
+        </div>
+        </div>
+      </div>
+  </footer>
+  <!--FINAL DE FOOTER-->
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>$(document).ready(function(){
+      $('.slider').slider({
+        indicators:false,
+        height:640,
+        transition:200,
+        interval:6000,
+
+      });
+
+      $('.modal').modal();
+      $('.collapsible').collapsible();
+
+    });</script>
+
+  </body>
+</html>
