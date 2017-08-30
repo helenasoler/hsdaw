@@ -1,0 +1,307 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/* CANVI DE COLOR DELS INPUTS */
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 #a1887f;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: black;
+}
+
+input:not([type]), 
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=url], 
+input[type=time], 
+input[type=date], 
+input[type=datetime], 
+input[type=datetime-local], 
+input[type=tel], 
+input[type=number], 
+input[type=search], 
+textarea.materialize-textarea{
+  border-bottom: 1px solid black;
+  
+}
+
+.input-field label {
+  color:black;
+}
+
+
+.input-field .prefix.active {
+  color: black;
+}
+
+
+.side-nav li > a {
+  color:black;
+  border-bottom: none;
+
+}
+
+.side-nav li > a:hover {
+  text-decoration: line-through;
+
+}
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: black;
+
+}
+
+
+#dropdown1{
+  background-color:transparent;
+  margin-top:64px;
+  border:none;
+  box-shadow:none;
+}
+
+
+#dropdown2{
+  background-color:none;
+  margin-top:64px;
+  border:none;
+  box-shadow:none;
+}
+
+
+
+nav{
+	top:0;
+	z-index:100;
+  border:none;
+  box-shadow: none;
+	
+}
+
+
+nav ul li a, nav .brand-logo, nav .button{
+  background-color: transparent;
+  color: #000000;
+  z-index:4;
+}
+
+
+.background{
+  background-color: transparent;
+  
+}
+
+
+nav ul a:hover{
+  background-color:transparent;
+  text-decoration: line-through;
+
+}
+
+
+nav .input-field label.active i {
+  color:#000000;
+}
+
+
+nav .input-field label i {
+  color:#000000;
+}
+
+
+nav .button-collapse i{
+  color:#000000;
+}
+
+
+#sidenav-overlay {
+    z-index: 0;
+  }
+
+
+.social{
+  width: 32px;
+}
+
+
+.fondo{
+  background-image:url(../imatges/fondo2.jpg);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo_color{
+  background-color: ;
+}
+
+.sense{
+  margin-top: 0;
+  
+}
+
+iframe{
+  width: 100%;
+  
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+
+main {
+  flex: 1 0 auto;
+}
+
+
+p.copyright{
+  color:white;
+  font-size: 12px;
+}
+
+
+.dropdown-content li > a:hover{
+  background-color: transparent;
+  text-decoration: line-through;
+}
+
+
+.divider{
+  background-color:;
+}
+
+
+footer{
+  color:white;
+  font-size: 12px;
+}
+
+nav .nav-wrapper {
+    margin-top: 5%;
+
+}
+
+.interliniat{
+  line-height: 40px;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+  background-color: transparent;
+  
+}
+
+
+.side-nav {
+    
+    width: 300px;
+    left: 0;
+    background-color: #fff;
+    filter:opacity(0.8);
+    
+}
+
+
+.side-nav li a:hover {
+    text-decoration: line-through;
+}
+
+
+.galeriafotos{
+  display:block;
+  flex: 1 0 auto;
+  margin-top: 8%;
+  margin-bottom: auto;
+}
+
+#contacta{
+  display:block;
+  flex:1 0 auto;
+  margin-top: 8%;
+  margin-bottom:auto;
+}
+
+.sobre{
+  display:block;
+  flex:1 0 auto;
+  margin-top: 8%;
+  margin-bottom:auto;
+  
+}
+
+.caixa{
+  display: inline-block;
+}
+
+.subtitol{
+  text-decoration: line-through;
+}
+
+
+
+@media only screen and (min-width:600px){
+.logo{
+    width:35%;
+}
+}
+
+@media only screen and (max-width:600px){
+.logo{
+    width:70%;
+}
+}
+
+@media only screen and (min-width:992px){
+.logo{
+    width:35%;
+}
+}
+
+@media only screen and (max-width:992px){
+.logo{
+    width:100%;
+}
+
